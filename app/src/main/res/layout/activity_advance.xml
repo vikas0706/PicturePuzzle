@@ -1,0 +1,290 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_wood_background"
+    tools:context="puzzle.slider.com.picturepuzzle.AdvanceActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#421805">
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/Game"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+
+        <AbsoluteLayout android:layout_height="wrap_content" android:id="@+id/GameField" android:layout_width="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/FeedbackText"
+            android:layout_alignEnd="@+id/FeedbackText">
+            <Button android:id="@+id/Button01a" android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="5dp"
+                android:layout_y="5dp"
+                android:text="1"
+                android:textSize="20sp"></Button>
+            <Button android:id="@+id/Button02a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="67dp"
+                android:layout_y="5dp"
+                android:text="2"
+                android:textSize="20sp"></Button>
+            <Button android:id="@+id/Button03a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="129dp"
+                android:layout_y="5dp"
+                android:text="3"
+                android:textSize="20sp"></Button>
+            <Button android:id="@+id/Button04a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="191dp"
+                android:layout_y="5dp"
+                android:text="4"
+                android:textSize="20sp"></Button>
+            <Button android:id="@+id/Button05a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="253dp"
+                android:layout_y="5dp"
+                android:text="5"
+                android:textSize="20sp"></Button>
+            <Button android:id="@+id/Button06a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="5dp"
+                android:layout_y="67dp"
+                android:text="6"
+                android:textSize="20sp"></Button>
+            <Button android:id="@+id/Button07a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="67dp"
+                android:layout_y="67dp"
+                android:text="7"
+                android:textSize="20sp"></Button>
+            <Button android:id="@+id/Button08a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="129dp"
+                android:layout_y="67dp"
+                android:text="8"
+                android:textSize="20sp"></Button>
+            <Button android:id="@+id/Button09a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="191dp"
+                android:layout_y="67dp"
+                android:text="9"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button10a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="253dp"
+                android:layout_y="67dp"
+                android:text="10"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button11a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="5dp"
+                android:layout_y="129dp"
+                android:text="11"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button12a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="67dp"
+                android:layout_y="129dp"
+                android:text="12"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button13a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="129dp"
+                android:layout_y="129dp"
+                android:text="13"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button14a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="191dp"
+                android:layout_y="129dp"
+                android:text="14"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button15a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="253dp"
+                android:layout_y="129dp"
+                android:text="15"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button16a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="5dp"
+                android:layout_y="191dp"
+                android:text="16"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button17a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="67dp"
+                android:layout_y="191dp"
+                android:text="17"
+                android:textSize="20sp"></Button>
+            <Button android:id="@+id/Button18a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="129dp"
+                android:layout_y="191dp"
+                android:text="18"
+                android:textSize="20sp"></Button>
+            <Button android:id="@+id/Button19a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="191dp"
+                android:layout_y="191dp"
+                android:text="19"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button20a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="253dp"
+                android:layout_y="191dp"
+                android:text="20"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button21a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="5dp"
+                android:layout_y="253dp"
+                android:text="21"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button22a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="67dp"
+                android:layout_y="253dp"
+                android:text="22"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button23a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="129dp"
+                android:layout_y="253dp"
+                android:text="23"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button24a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="191dp"
+                android:layout_y="253dp"
+                android:text="24"
+                android:textSize="20sp"
+                ></Button>
+            <Button android:id="@+id/Button00a"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:layout_x="253dp"
+                android:layout_y="253dp"
+                android:text="25"
+                android:textSize="20sp"
+                ></Button>
+
+        </AbsoluteLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/MoveText"
+            android:textSize="28dp"
+            android:text="@string/moves_title"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        </TextView>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/FeedbackTitleText"
+            android:text="@string/feedback_title"
+            android:textSize="28dp"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/MoveText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+        </TextView>
+        <TextView android:layout_below="@+id/GameField"
+            android:layout_toRightOf="@+id/MoveText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/MoveCounter"
+            android:textColor="@android:color/white"
+            android:text="0"
+            android:textSize="28dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignBaseline="@+id/MoveText">
+
+        </TextView>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="28dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/FeedbackText"
+            android:text="@string/game_feedback_text"
+            android:layout_alignTop="@+id/FeedbackTitleText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#421805"
+        >
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/reset_button"
+            android:onClick="reset"
+            android:background="@mipmap/reset"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/back_button"
+            android:background="@mipmap/back_button"
+            android:onClick="back"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

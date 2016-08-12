@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+     tools:context=".MainActivity"
+    android:fitsSystemWindows="true"
+    >
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="PLAY"
+        android:onClick="play"
+        android:textSize="30dp"
+        android:background="@drawable/button_selector"
+        android:textColor="#ffffff"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textStyle="bold"
+        android:shadowRadius="0.6"
+        android:id="@+id/button"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_selector"
+        android:textColor="#ffffff"
+        android:text="EXIT"
+        android:textSize="30dp"
+        android:onClick="exit"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textStyle="bold"
+        android:shadowRadius="0.6"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="57dp" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PICTURE PUZZLE"
+        android:textSize="36dp"
+        android:layout_below="@+id/imageView"
+        android:textStyle="bold|italic"
+        android:textColor="#f8ff6d"
+        android:shadowColor="#000000"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="12.0"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

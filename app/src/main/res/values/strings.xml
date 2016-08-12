@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Picture Puzzle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_level_selector">LevelSelector</string>
+    <string name="title_activity_beginner_">Beginner_Activity</string>
+    <string name="play_button">Play</string>
+    <string name="exit">Exit</string>
+    <string name="feedback_title">Feedback: </string>
+    <string name="moves_title">Moves: </string>
+    <string name="game_feedback_text">No feedback yet!</string>
+    <string name="title_activity_level__option">Level_Option</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_intermediate_">Intermediate_Activity</string>
+    <string name="title_activity_advance">AdvanceActivity</string>
+</resources>
